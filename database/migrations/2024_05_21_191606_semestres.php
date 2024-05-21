@@ -16,8 +16,7 @@ return new class extends Migration
             $table->integer('numeroSemestre');
             $table->string('saison');
             $table->integer('nbrSemaines');
-            // $table->unsignedBigInteger('idModule'); // Nouvelle clé étrangère ajoutée
-            // $table->foreign('idModule')->references('idModule')->on('modules')->onDelete('cascade');
+           
             $table->timestamps();
 
         });
